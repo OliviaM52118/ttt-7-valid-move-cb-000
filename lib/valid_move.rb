@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move(board,board_pos)
+def valid_move?(board,board_pos)
   myboard = board
   myboard_pos = board_pos
   cond1 = position_taken?(myboard, myboard_pos)
