@@ -2,7 +2,7 @@
 def valid_move(board,board_pos)
   myboard = board
   myboard_pos = board_pos
-  cond1 = position_taken(myboard, myboard_pos)
+  cond1 = position_taken?(myboard, myboard_pos)
   if(myboard_pos >= 0 && myboard_pos <= 8)
     if(cond1 == true)
       return true
